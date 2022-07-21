@@ -2,61 +2,45 @@
 
 # Project Name
 
-> Description the project.
+# TO-DO-LIST
 
+This is an app for a TO-DO-LIST. This app can allow a user add, remove and edit tasks and all changes stored in local storage
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- javaScript
+- webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](http://eudondian.github.io/To-Do-List-Review)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
+git clone https://github.com/eudondian/TO-DO-list-Review.git in your local directory.
 
 ### Usage
 
-### Run tests
+Click live demo linkk
 
-### Deployment
+ Authors
 
+👤 **Author**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/eudondian)
+- Twitter: [@twitterhandle](https://twitter.com/eudondian)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/esther-udondian-186849119/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page
 
 ## Show your support
 
