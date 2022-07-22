@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+}
+
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  min-width: 80vh;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  cursor: pointer;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-menu {
+  min-width: 45%;
+  list-style: none;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.todo li {
+  flex: 1;
+  padding: 15px 40px;
+}
+
+.remove-button,
+.completed-button,
+.edit-button {
+  background: rgb(147, 147, 147);
+  color: black;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.uil-trash,
+.uil-check-circle,
+.uil-edit {
+  pointer-events: none;
+}
+
+.input-div,
+.choose {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  border: 0 !important;
+  cursor: pointer;
+  width: 200px;
+  outline: 0;
+  padding: 1rem;
+}
+
+.choose {
+  position: relative;
+  margin-top: -50px;
+}
+
+.choose::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgb(201, 196, 196);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.demo[value='Demo'] {
+  color: rgb(199, 196, 196);
+  font-size: small;
+  padding: 1.2rem;
+  width: 400px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  text-decoration-color: red;
+}
+
+.uil-plus-circle,
+.uil-refresh {
+  color: whitesmoke;
+  background: rgb(57, 55, 55);
+}
+
+.clear-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.clear-button {
+  min-width: 100vh;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    text-align: center;
+  }
+
+  form input {
+    min-width: 10px;
+  }
+
+  .input-div-one,
+  .input-div-two {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    margin-left: -150px;
+  }
+
+  .choose {
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+
+  .clear-button {
+    min-width: 3px;
+    margin-top: 10px;
+  }
+
+  select {
+    width: 150px;
+  }
+}
