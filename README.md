@@ -4,7 +4,7 @@
 
 # TO-DO-LIST
 
-This is an app for a TO-DO-LIST. This app can allow a user add, remove and edit tasks and all changes stored in local storage
+This project is a simple To-Do-List App where a user can add, remove and clear tasks. It was designed using HTML/CSS. JavaScript was used to add functionalities by using the webpack dev server to display the app on a web server.
 
 ## Built With
 
