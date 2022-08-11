@@ -10,7 +10,7 @@ This project is a simple To-Do-List App where a user can add, remove and clear t
 
 - HTML
 - CSS
-- javaScript
+- JavaScript
 - webpack
 
 ## Live Demo (if available)
